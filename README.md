@@ -1,2 +1,2 @@
 # html-css
- curso de html e css basico
+ curso de HTML5 e CSS3 básico
