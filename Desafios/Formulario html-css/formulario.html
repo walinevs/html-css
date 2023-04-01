@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="campo">
+        <h1 id="titulo">Cadastro CSU-Digital</h1>
+        <p id="subtitulo"><strong>Complete suas informações</strong></p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome:</strong></label>
+                <input type="text" nome="nome" id="nome" required>
+            </div>
+            
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome:</strong></label>
+                <input type="text" nome="sobrenome" id="sobrenome" required>
+            </div>
+
+        </fieldset>
+
+        <div class="campo">
+            <label for="email"><strong>Email:</strong></label>
+            <input type="email" nome="email" id="email" required>
+        </div>
+
+        <div class="campo">
+            <label for=""><strong>Qual a sua área de atuação?</strong></label>
+            <input type="radio" nome="funcao" value="função"> RH
+            <input type="radio" nome="funcao" value="função"> T&D
+            <input type="radio" name="funcao" value="função"> A&S
+            <input type="radio" nome="funcao" value="função"> DHO
+        </div>
+
+        <div class="campo">
+            <label for="senioridade"><strong>Senioridade:</strong></label>
+            <select name="senioridade" id="senioridade">
+            <option selected disabled value="">Selecione</option>
+            <option>Atendente</option>
+            <option>Multiplicador</option>
+            <option>Analista</option>
+            <option>Supervisor</option>
+            <option>Coordenador</option>
+            <option>Gerente</option>
+            <option>Bufallo</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label for="participações"><strong>Selecione suas participações:</strong></label><br><br>
+                <input type="checkbox" id="participacao1" nome="participacao1" value="Encontros">
+                <label for="participacao">Encontros</label>
+                <input type="checkbox" id="participacao2" nome="participacao2" value="Reuniões">
+                <label for="participacao2">Reuniões</label>
+                <input type="checkbox" id="participacao3" nome="participacao3" value="Entrevistas">
+                <label for="participacao3">Entrevistas</label>
+                <input type="checkbox" id="participacao4" nome="participacao4" value="Eventos">
+                <label for="participacao4">Eventos</label>
+            </div>
+        </fieldset>
+        <br>
+        
+        <div class="campo">
+            <br>
+            <label for="experiencia" style="color: #380b61;"><strong>Conte um pouco das suas experências:</strong></label>
+            <textarea name="experiencia" id="experiencia" cols="30" rows="6" style="width: 12cm;"></textarea>
+        </div>
+
+
+        <button type="submit" class="botao"><strong>Concluído</strong></button>
+    </form>
+</body>
+</html>
