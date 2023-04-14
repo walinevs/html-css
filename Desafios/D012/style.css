@@ -14,7 +14,7 @@ html, body {
 }
 
 header {
-    background-image: linear-gradient(to top, rgb(68, 68, 233), rgb(29, 27, 27));
+    background-image: linear-gradient(to right, rgb(68, 68, 233), rgb(29, 27, 27));
     color: white;
     text-align: center;
     min-width: -10px;
@@ -94,7 +94,7 @@ section#img2 {
 }
 
 footer {
-    background-color: black;
+    background-image: linear-gradient(to right, rgb(68, 68, 233), rgb(29, 27, 27));
     color: white;
     padding: 10px;
     text-align: center;
