@@ -54,8 +54,9 @@ section {
     padding-bottom: 10vh;    
     line-height: 2em;   
     padding-left: 30px;
-    font-family: 'Playball', cursive;
+    font-family: 'Signika', cursive;
     font-size: 3vw;
+    font-weight: bold;
     text-align: justify;
 }
 
