@@ -21,6 +21,14 @@
             border-collapse: collapse;
         }
 
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, rgb(81,rgb(47, 177, 42)81), yellow);
+            padding: 10px;
+        }
+
         td, th {
             border: 1px solid black;
             padding: 10px;
@@ -37,12 +45,18 @@
 
        }
 
+       tbody tr:nth-child(2n){
+        background-color: rgb(139, 136, 136);
+        color: white;
+       }
+
 
     </style>
 </head>
 <body>
-    <h1>Unidades federativas do Brasil</h1>
+    <h1>Tabela grande</h1>
     <table>
+        <caption>Unidades federativos do brasil</caption>
         <thead>
             <tr>
                 <th>Posição</th>
