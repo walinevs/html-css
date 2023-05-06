@@ -19,6 +19,7 @@
             width: 1200px;
             margin: auto;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -36,7 +37,14 @@
         }
 
         thead {
-            background-color: darkgray;
+            background-color: rgb(104, 101, 101);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(104, 101, 101)
+            ;
         }
 
        tfoot {
