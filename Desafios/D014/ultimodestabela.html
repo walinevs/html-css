@@ -15,17 +15,47 @@
             width: 400px;
             border-collapse: collapse;
             padding: 10px;
-            text-align: center;
+            margin: auto;
+            
+          
+        }
+
+        caption {
+            background-color: darkgrey;
+            color: white;
+            font-size: 1.3em;
+            padding: 5px;
+           
+        }
+
+        thead {
+            background-color: rgb(97, 96, 96);
+            color: white;
+            font-weight: bold;
         }
 
         th, td {
             border: 1px solid black;
+            padding: 5px;
+           
 
         }
+
+
+        .media {
+            background-color: rgb(97, 96, 96);
+            color: white;
+            text-align: left;
+            padding: 5px;
+        }
+
+
+       
     </style>
 </head>
 <body>
     <table>
+        <caption>Escola São Francisco de Assis</caption>
         <thead>
             <th rowspan="2">Área</th>
             <th rowspan="2">Disciplinas</th>
@@ -66,6 +96,31 @@
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" class="media">Média de exatas</th>
+                <td style="background-color:   rgb(97, 96, 96); color: white; font-weight: bold;">0.0</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" class="media">Média de Humanas</th>
+                <td style="background-color:  rgb(97, 96, 96); color: white; font-weight: bold;">0.0</td>
             </tr>
 
         </tbody>
